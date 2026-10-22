@@ -3,58 +3,105 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fbfbfa">
   <title>Jiawen Gong</title>
-  <meta name="description" content="Jiawen Gong, Mathematics & Computer Science at UIUC. Research on LLM agents, benchmarking, and evaluation.">
+  <meta name="description" content="Jiawen Gong is a Mathematics & Computer Science undergraduate at UIUC, working on LLM agents, benchmarking, and evaluation.">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Jiawen Gong">
-  <meta property="og:description" content="Mathematics & Computer Science at UIUC. LLM agents, benchmarking, and evaluation.">
+  <meta property="og:description" content="Mathematics & Computer Science at UIUC. Research, publications, and experience in LLM agents and evaluation.">
   <meta property="og:url" content="https://jiawen-gong.github.io/">
   <link rel="canonical" href="https://jiawen-gong.github.io/">
-  <link rel="stylesheet" href="styles.css?v=2">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=3">
 </head>
-<body>
-<main>
-  <h1>Jiawen Gong</h1>
-  <p>I am an undergraduate in Mathematics &amp; Computer Science at the University of Illinois Urbana-Champaign, expecting to graduate in May 2028.</p>
-  <p>My interests are in LLM agents, benchmarking, and evaluation. My research studies benchmark difficulty and chain-of-thought monitorability. Previously, I worked on AI agents at Alibaba and retrieval systems at Baidu.</p>
-  <p class="links"><a href="mailto:jiawen8@illinois.edu">Email</a> &nbsp;/&nbsp; <a href="Jiawen_Gong_Resume.pdf">CV</a> &nbsp;/&nbsp; <a href="https://github.com/jiawen-gong">GitHub</a> &nbsp;/&nbsp; <a href="https://www.linkedin.com/in/jiawen-gong/">LinkedIn</a></p>
+<body id="top">
+  <a class="skip" href="#main">Skip to content</a>
+  <header>
+    <nav class="navigation" aria-label="Main navigation">
+      <a class="about-link" href="#top">About</a>
+      <div class="navigation-links">
+        <a href="#publications">Publications</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="Jiawen_Gong_Resume.pdf">CV</a>
+      </div>
+    </nav>
+  </header>
 
-  <section aria-labelledby="publications">
-    <h2 id="publications">Publications</h2>
-    <article>
-      <h3>Your Benchmark Is an Empirical Measure Over Difficulty</h3>
-      <p class="authors">Yifan Sun*, Naicheng Yu*, <strong>Jiawen Gong*</strong>, Jingyan Shen, Huan Zhang</p>
-      <p><em>NeurIPS 2026</em></p>
-      <p>A difficulty-based view of benchmark evaluation and BenchFill, a method for filling gaps in benchmark difficulty coverage.</p>
-      <p class="links"><a href="https://arxiv.org/abs/2610.29927">Paper</a> &nbsp;/&nbsp; <a href="https://github.com/ASTRAL-Group/benchmark-difficulty-measure">Code</a> &nbsp;/&nbsp; <a href="https://benchmark-difficulty-measure.github.io/">Project</a></p>
-    </article>
-    <article>
-      <h3>MonitorBench: A Comprehensive Benchmark for Chain-of-Thought Monitorability in Large Language Models</h3>
-      <p class="authors">Han Wang*, Yifan Sun*, Brian Ko*, Mann Talati*, <strong>Jiawen Gong</strong>, Zimeng Li, Naicheng Yu, Xucheng Yu, Wei Shen, Vedant Jolly, Huan Zhang</p>
-      <p><em>COLM 2026</em></p>
-      <p>A benchmark for evaluating when chain-of-thought reveals the factors driving model behavior.</p>
-      <p class="links"><a href="https://arxiv.org/abs/2603.28590">Paper</a> &nbsp;/&nbsp; <a href="https://github.com/ASTRAL-Group/MonitorBench">Code</a></p>
-    </article>
-    <p class="note">* Equal contribution.</p>
-  </section>
+  <main id="main" class="page">
+    <section class="introduction" aria-labelledby="name">
+      <h1 id="name">Jiawen Gong</h1>
+      <p>I am an undergraduate in Mathematics &amp; Computer Science at the <a href="https://illinois.edu/">University of Illinois Urbana-Champaign</a>, expecting to graduate in May 2028.</p>
+      <p>My research interests are in <strong>LLM agents</strong> and <strong>benchmarking and evaluation</strong>. I study how benchmark difficulty affects model evaluation and how reliably chain-of-thought reveals model behavior.</p>
+      <p>Previously, I worked on AI agents at Alibaba and retrieval systems at Baidu. I’m interested in research collaborations and internship opportunities in AI and software engineering.</p>
+      <div class="profile-links" aria-label="Contact and profiles">
+        <a href="mailto:jiawen8@illinois.edu">Email</a>
+        <a href="https://github.com/jiawen-gong">GitHub</a>
+        <a href="https://www.linkedin.com/in/jiawen-gong/">LinkedIn</a>
+        <a href="Jiawen_Gong_Resume.pdf">CV</a>
+      </div>
+    </section>
 
-  <section aria-labelledby="experience">
-    <h2 id="experience">Experience</h2>
-    <article class="experience">
-      <p><strong>Alibaba Group (Taobao &amp; Tmall)</strong><br>AI Agent Engineer Intern <span class="date">&middot; Jun &ndash; Aug 2026</span></p>
-      <p>Post-training, tool orchestration, and evaluation for TMALL AI Assistant.</p>
-    </article>
-    <article class="experience">
-      <p><strong>Baidu AI Cloud</strong><br>Software Engineer Intern <span class="date">&middot; Mar &ndash; May 2026</span></p>
-      <p>Retrieval-augmented search over database documentation for data agents.</p>
-    </article>
-    <article class="experience">
-      <p><strong>University of Illinois Urbana-Champaign</strong><br>Course Assistant, CS 277 <span class="date">&middot; Jan 2026 &ndash; Present</span></p>
-      <p>Data structures labs, office hours, and automated grading.</p>
-    </article>
-  </section>
+    <section id="publications" class="section" aria-labelledby="publications-heading">
+      <h2 id="publications-heading">Publications</h2>
+      <div class="publications">
+        <article class="publication">
+          <a class="thumbnail" href="https://benchmark-difficulty-measure.github.io/" aria-label="BenchFill project website">
+            <img src="benchmark-overview.png" alt="BenchFill rewrites items, calibrates their difficulty, and fills gaps in benchmark coverage." width="2400" height="758" decoding="async">
+          </a>
+          <div class="publication-text">
+            <h3><a href="https://arxiv.org/abs/2610.29927">Your Benchmark Is an Empirical Measure Over Difficulty</a></h3>
+            <p class="authors">Yifan Sun*, Naicheng Yu*, <strong>Jiawen Gong*</strong>, Jingyan Shen, Huan Zhang</p>
+            <p class="publication-resources"><span class="venue">NeurIPS 2026</span><span class="resource-links"> · <a href="https://arxiv.org/abs/2610.29927">[Paper]</a> <a href="https://github.com/ASTRAL-Group/benchmark-difficulty-measure">[Code]</a> <a href="https://benchmark-difficulty-measure.github.io/">[Project]</a></span></p>
+            <p class="description">A difficulty-based view of benchmark evaluation, with BenchFill to fill coverage gaps that can hide model improvements.</p>
+          </div>
+        </article>
+        <article class="publication">
+          <a class="thumbnail" href="https://arxiv.org/abs/2603.28590" aria-label="MonitorBench paper">
+            <img src="monitorbench-results.png" alt="MonitorBench compares action and chain-of-thought monitoring under standard and stress-test settings." width="5008" height="4164" loading="lazy" decoding="async">
+          </a>
+          <div class="publication-text">
+            <h3><a href="https://arxiv.org/abs/2603.28590">MonitorBench: A Comprehensive Benchmark for Chain-of-Thought Monitorability in Large Language Models</a></h3>
+            <p class="authors">Han Wang*, Yifan Sun*, Brian Ko*, Mann Talati, <strong>Jiawen Gong</strong>, Zimeng Li, Naicheng Yu, Xucheng Yu, Wei Shen, Vedant Jolly, Huan Zhang</p>
+            <p class="publication-resources"><span class="venue">COLM 2026</span><span class="resource-links"> · <a href="https://arxiv.org/abs/2603.28590">[Paper]</a> <a href="https://github.com/ASTRAL-Group/MonitorBench">[Code]</a></span></p>
+            <p class="description">A benchmark for evaluating when chain-of-thought reveals the factors driving model behavior.</p>
+          </div>
+        </article>
+      </div>
+      <p class="contribution-note">* Equal contribution.</p>
+    </section>
 
-  <footer><a href="mailto:jiawen8@illinois.edu">jiawen8@illinois.edu</a><br>Last updated October 2026.</footer>
-</main>
+    <section id="experience" class="section" aria-labelledby="experience-heading">
+      <h2 id="experience-heading">Experience</h2>
+      <div class="experience-list">
+        <article class="entry">
+          <div class="entry-heading"><h3>Alibaba Group · Taobao &amp; Tmall</h3><span class="date">Jun – Aug 2026</span></div>
+          <p class="role">AI Agent Engineer Intern</p>
+          <p>Post-training, tool orchestration, and evaluation for TMALL AI Assistant.</p>
+        </article>
+        <article class="entry">
+          <div class="entry-heading"><h3>Baidu AI Cloud</h3><span class="date">Mar – May 2026</span></div>
+          <p class="role">Software Engineer Intern</p>
+          <p>Retrieval-augmented search over database documentation for data agents.</p>
+        </article>
+        <article class="entry">
+          <div class="entry-heading"><h3>University of Illinois Urbana-Champaign</h3><span class="date">Jan 2026 – Present</span></div>
+          <p class="role">Course Assistant · CS 277</p>
+          <p>Data structures labs, office hours, and automated grading.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="section" aria-labelledby="education-heading">
+      <h2 id="education-heading">Education</h2>
+      <div class="entry">
+        <div class="entry-heading"><h3>University of Illinois Urbana-Champaign</h3><span class="date">Expected May 2028</span></div>
+        <p>B.S. in Mathematics &amp; Computer Science · GPA: 3.9/4.0</p>
+      </div>
+    </section>
+    <footer>© 2026 Jiawen Gong. Last updated October 2026.</footer>
+  </main>
 </body>
 </html>
