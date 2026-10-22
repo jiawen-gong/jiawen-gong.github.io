@@ -7,5 +7,5 @@ Edit `index.html` for content and `styles.css` for layout. Replace `Jiawen_Gong_
 ## Publication figures
 
 The thumbnail images illustrate Jiawen Gong's co-authored research:
-- BenchFill pipeline: https://benchmark-difficulty-measure.github.io/static/images/fig4_benchfill.png
+- Benchmark difficulty: the coverage-gaps panel from Figure 1 of https://arxiv.org/html/2610.29927v1, displayed from the original figure through an SVG viewport.
 - MonitorBench results: https://github.com/ASTRAL-Group/MonitorBench/blob/main/assets/bar_radar.png
