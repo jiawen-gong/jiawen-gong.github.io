@@ -14,7 +14,7 @@ header { position: sticky; top: 0; z-index: 5; background: var(--background); bo
 .introduction { display: grid; grid-template-columns: minmax(0, 1fr) 220px; gap: 42px; align-items: start; padding-bottom: 32px; border-bottom: 1px solid var(--border); }
 .intro-copy { min-width: 0; }
 .portrait { margin: 2px 0 0; }
-.portrait img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: 40% 50%; border: 1px solid var(--border); border-radius: 4px; }
+.portrait img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: 54% 50%; border: 1px solid var(--border); border-radius: 4px; }
 h1 { margin: 0 0 17px; font-size: 41px; line-height: 1.15; letter-spacing: -.8px; font-weight: 700; }
 .introduction p { max-width: 860px; margin: 0 0 13px; }
 .introduction strong { font-weight: 600; }
